@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajantes</title>
+    <!--- Referencia a biblioteca do bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-fluid p-2 bg-light text-center">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid bg-light">
+                <a class="navbar-brand" href="#">Viajantes</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#gastronomia">Gastronomia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#exercicios">Exercícios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#seguranca">Segurança</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <form>
+        <div id="gastronomia">
+            <section class="container-fluid p-2 m-2 border-16">
+                <div>
+
+                    <fieldset>
+                        <h2 class="display-5">Planejamento e Dicas de Viagem: Alimentação pelo Mundo</h2>
+                        <img src="https://catracalivre.com.br/wp-content/uploads/2018/06/gastronomia-millenials-destinos.jpg"
+                            class="img-fluid">
+                        <p class="lead">Viajar é também explorar com o paladar. Ao redor do mundo, cada destino tem sua
+                            assinatura culinária, refletindo sua cultura, história e recursos locais. Experimentar a
+                            gastronomia local não apenas enriquece a experiência de viagem, mas também abre janelas para
+                            entender as tradições e o modo de vida das pessoas. Desde degustar tapas na Espanha,
+                            saborear um autêntico ramen no Japão, até se aventurar nos mercados de rua na Tailândia,
+                            cada prato conta uma história. Dicas práticas incluem pesquisar previamente os pratos
+                            típicos, estar aberto a novos sabores e, sempre que possível, escolher locais frequentados
+                            por residentes, garantindo assim uma imersão verdadeira e saborosa na cultura local.</p>
+                    </fieldset>
+                </div>
+            </section>
+        </div>
+
+        <div id="exercicios">
+            <section class="container-fluid p-2 m-2">
+                <fieldset>
+                    <h2 class="display-5"> Explorando o Mundo Através de Atividades</h2>
+                    <img src="https://www.trilhaseaventuras.com.br/wp-content/uploads/2018/09/Trilhas-Capa.jpg"
+                        class="img-fluid">
+                    <p class="lead"> Atividades ao ar livre são o coração de muitas viagens, proporcionando maneiras
+                        únicas de explorar novas paisagens, seja caminhando por trilhas pitorescas, mergulhando em águas
+                        cristalinas entre corais coloridos ou pedalando por cidades vibrantes. Essas experiências não
+                        apenas revitalizam o corpo, mas também conectam o viajante com a natureza e a cultura do local
+                        de maneiras profundas e significativas. Preparar-se adequadamente, escolhendo atividades
+                        compatíveis com seu nível de habilidade e respeitando o ambiente, garante aventuras seguras e
+                        responsáveis, tornando a viagem inesquecível por todas as razões certas.</p>
+                </fieldset>
+            </section>
+        </div>
+
+        <div id="seguranca">
+            <section class="container-fluid p-2 m-2">
+                <fieldset>
+                    <h2 class="display-5">Garantindo uma Viagem Segura e Saudável</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc4VEPmAEkI1bCtItIdpgIwbQYUHY_-_j-e6vQaMWIwpMALAOQ66-gBSuOvniXkWxaII&usqp=CAU"
+                        class="img-fluid">
+                    <p class="lead"> A saúde e a segurança são fundamentais para aproveitar ao máximo suas aventuras de
+                        viagem. Tomar precauções básicas, como atualizar vacinações, contratar um seguro viagem adequado
+                        e preparar um kit de primeiros socorros, pode evitar transtornos e garantir uma estadia mais
+                        tranquila. Adaptar-se ao clima, hidratar-se e proteger-se contra mosquitos em áreas tropicais
+                        são dicas valiosas. Além disso, estar informado sobre os serviços de saúde locais e ter um plano
+                        para emergências médicas assegura que você possa agir rapidamente caso necessário, mantendo a
+                        viagem segura e saudável do começo ao fim.</p>
+                </fieldset>
+            </section>
+        </div>
+
+        <br><br>
+        <footer class="container-fluid bg-dark mb-2" style="vertical-align: center;">
+            <p class="text-light" style="text-align: center; width: 100%; height: 40px; vertical-align: center;">
+                Desenvolvido por <a href="https://github.com/iLolz" style="color: aquamarine;">iLolz</a> @2024
+            </p>
+        </footer>
+
+        <!--- Referencia a biblioteca do bootstrap-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
